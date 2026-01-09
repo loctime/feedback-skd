@@ -1,14 +1,22 @@
 {
-    "name": "@controlfile/feedback-sdk",
-    "version": "0.1.0",
-    "private": true,
-    "type": "module",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "files": ["dist"],
-    "dependencies": {},
-    "peerDependencies": {
-      "firebase": "^10"
-    }
+  "name": "@controlfile/feedback-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "rimraf": "^5.0.0"
+  },
+  "peerDependencies": {
+    "firebase": "^10"
   }
+}
   
